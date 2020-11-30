@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200812 11:05:21.418" generator="Robot 3.2.1 (Python 2.7.15 on win32)">
+<suite source="C:\development\Robot-Script\tokopedia\tests\search.robot" id="s1" name="Search">
+<test id="s1-t1" name="Search">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.tokopedia.com/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20200812 11:05:21.769" level="INFO">Opening browser 'gc' to base url 'https://www.tokopedia.com/'.</msg>
+<status status="PASS" endtime="20200812 11:05:29.873" starttime="20200812 11:05:21.768"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:31.875" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:31.875" starttime="20200812 11:05:29.875"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/input</arg>
+<arg>kompor</arg>
+</arguments>
+<msg timestamp="20200812 11:05:31.878" level="INFO">Typing text 'kompor' into text field 'xpath=//*[@id="search-container"]/form/div/div/input'.</msg>
+<status status="PASS" endtime="20200812 11:05:32.606" starttime="20200812 11:05:31.877"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:34.609" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:34.609" starttime="20200812 11:05:32.607"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/button</arg>
+</arguments>
+<msg timestamp="20200812 11:05:34.611" level="INFO">Clicking element 'xpath=//*[@id="search-container"]/form/div/div/button'.</msg>
+<status status="PASS" endtime="20200812 11:05:34.885" starttime="20200812 11:05:34.610"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:36.888" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:36.888" starttime="20200812 11:05:34.886"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="zeus-root"]/div/div[2]/div/div[2]/div[4]/div[10]/div/div/div/div/div/div[1]/a</arg>
+</arguments>
+<msg timestamp="20200812 11:05:36.889" level="INFO">Clicking link 'xpath=//*[@id="zeus-root"]/div/div[2]/div/div[2]/div[4]/div[10]/div/div/div/div/div/div[1]/a'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200812 11:05:38.659" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-22.png"&gt;&lt;img src="selenium-screenshot-22.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200812 11:05:38.660" starttime="20200812 11:05:38.082"></status>
+</kw>
+<msg timestamp="20200812 11:05:38.662" level="FAIL">Link with locator 'xpath=//*[@id="zeus-root"]/div/div[2]/div/div[2]/div[4]/div[10]/div/div/div/div/div/div[1]/a' not found.</msg>
+<status status="FAIL" endtime="20200812 11:05:38.662" starttime="20200812 11:05:36.889"></status>
+</kw>
+<status status="FAIL" endtime="20200812 11:05:38.664" critical="yes" starttime="20200812 11:05:21.766">Link with locator 'xpath=//*[@id="zeus-root"]/div/div[2]/div/div[2]/div[4]/div[10]/div/div/div/div/div/div[1]/a' not found.</status>
+</test>
+<test id="s1-t2" name="Search by location">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.tokopedia.com/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20200812 11:05:38.669" level="INFO">Opening browser 'gc' to base url 'https://www.tokopedia.com/'.</msg>
+<status status="PASS" endtime="20200812 11:05:47.170" starttime="20200812 11:05:38.669"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:49.173" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:49.173" starttime="20200812 11:05:47.172"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/input</arg>
+<arg>kompor</arg>
+</arguments>
+<msg timestamp="20200812 11:05:49.175" level="INFO">Typing text 'kompor' into text field 'xpath=//*[@id="search-container"]/form/div/div/input'.</msg>
+<status status="PASS" endtime="20200812 11:05:49.431" starttime="20200812 11:05:49.174"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:51.432" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:51.432" starttime="20200812 11:05:49.432"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/button</arg>
+</arguments>
+<msg timestamp="20200812 11:05:51.434" level="INFO">Clicking element 'xpath=//*[@id="search-container"]/form/div/div/button'.</msg>
+<status status="PASS" endtime="20200812 11:05:51.663" starttime="20200812 11:05:51.433"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:53.665" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:53.665" starttime="20200812 11:05:51.665"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="zeus-root"]/div/div[2]/div/div[1]/div[1]/div/div[2]/div/div/div/div/div[1]/label/span</arg>
+</arguments>
+<msg timestamp="20200812 11:05:53.666" level="INFO">Clicking element 'xpath=//*[@id="zeus-root"]/div/div[2]/div/div[1]/div[1]/div/div[2]/div/div/div/div/div[1]/label/span'.</msg>
+<status status="PASS" endtime="20200812 11:05:54.747" starttime="20200812 11:05:53.666"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:05:56.748" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:05:56.748" starttime="20200812 11:05:54.748"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200812 11:05:59.006" starttime="20200812 11:05:56.749"></status>
+</kw>
+<status status="PASS" endtime="20200812 11:05:59.010" critical="yes" starttime="20200812 11:05:38.668"></status>
+</test>
+<test id="s1-t3" name="Search by expedisi">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.tokopedia.com/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20200812 11:05:59.030" level="INFO">Opening browser 'gc' to base url 'https://www.tokopedia.com/'.</msg>
+<status status="PASS" endtime="20200812 11:06:07.795" starttime="20200812 11:05:59.029"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:06:09.799" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:06:09.799" starttime="20200812 11:06:07.797"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/input</arg>
+<arg>kompor</arg>
+</arguments>
+<msg timestamp="20200812 11:06:09.800" level="INFO">Typing text 'kompor' into text field 'xpath=//*[@id="search-container"]/form/div/div/input'.</msg>
+<status status="PASS" endtime="20200812 11:06:10.230" starttime="20200812 11:06:09.800"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:06:12.231" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:06:12.232" starttime="20200812 11:06:10.231"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/button</arg>
+</arguments>
+<msg timestamp="20200812 11:06:12.234" level="INFO">Clicking element 'xpath=//*[@id="search-container"]/form/div/div/button'.</msg>
+<status status="PASS" endtime="20200812 11:06:12.826" starttime="20200812 11:06:12.234"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:06:14.829" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:06:14.829" starttime="20200812 11:06:12.827"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="zeus-root"]/div/div[2]/div/div[1]/div[1]/div/div[4]/div/div/div/div/div[1]/label/span</arg>
+</arguments>
+<msg timestamp="20200812 11:06:14.834" level="INFO">Clicking element 'xpath=//*[@id="zeus-root"]/div/div[2]/div/div[1]/div[1]/div/div[4]/div/div/div/div/div[1]/label/span'.</msg>
+<status status="PASS" endtime="20200812 11:06:16.282" starttime="20200812 11:06:14.832"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200812 11:06:18.284" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200812 11:06:18.284" starttime="20200812 11:06:16.283"></status>
+</kw>
+<status status="PASS" endtime="20200812 11:06:18.287" critical="yes" starttime="20200812 11:05:59.024"></status>
+</test>
+<status status="FAIL" endtime="20200812 11:06:18.293" starttime="20200812 11:05:21.421"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="2">Critical Tests</stat>
+<stat fail="1" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Search" pass="2">Search</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200812 11:05:21.760" level="ERROR">Error in file 'C:\development\Robot-Script\tokopedia\tests\search.robot' on line 3: Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Scripts\robot.exe
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages</msg>
+</errors>
+</robot>

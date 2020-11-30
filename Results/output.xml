@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20201103 17:31:28.651" generator="Robot 3.2.1 (Python 2.7.15 on win32)">
+<suite source="C:\development\Robot-Script\tokopedia\tests\search.robot" id="s1" name="Search">
+<test id="s1-t1" name="Search">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.tokopedia.com/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20201103 17:31:29.309" level="INFO">Opening browser 'ff' to base url 'https://www.tokopedia.com/'.</msg>
+<msg timestamp="20201103 17:31:29.312" level="INFO">Firefox driver log is always forced to to: C:\development\Robot-Script\tokopedia\results\geckodriver-13.log</msg>
+<status status="PASS" endtime="20201103 17:31:38.873" starttime="20201103 17:31:29.309"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:40.875" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:40.875" starttime="20201103 17:31:38.874"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/input</arg>
+<arg>Sepatu Compass</arg>
+</arguments>
+<msg timestamp="20201103 17:31:40.876" level="INFO">Typing text 'Sepatu Compass' into text field 'xpath=//*[@id="search-container"]/form/div/div/input'.</msg>
+<status status="PASS" endtime="20201103 17:31:40.988" starttime="20201103 17:31:40.876"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:42.989" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:42.989" starttime="20201103 17:31:40.989"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="search-container"]/form/div/div/button</arg>
+</arguments>
+<msg timestamp="20201103 17:31:42.990" level="INFO">Clicking element 'xpath=//*[@id="search-container"]/form/div/div/button'.</msg>
+<status status="PASS" endtime="20201103 17:31:43.348" starttime="20201103 17:31:42.990"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:45.352" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:45.352" starttime="20201103 17:31:43.350"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/div/div[2]/div[1]/div/button[2]/span/i</arg>
+</arguments>
+<msg timestamp="20201103 17:31:45.353" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div[2]/div/div[2]/div[1]/div/button[2]/span/i'.</msg>
+<status status="PASS" endtime="20201103 17:31:45.707" starttime="20201103 17:31:45.353"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:47.708" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:47.708" starttime="20201103 17:31:45.708"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/a/div[3]/button/span</arg>
+</arguments>
+<msg timestamp="20201103 17:31:47.709" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/a/div[3]/button/span'.</msg>
+<status status="PASS" endtime="20201103 17:31:48.051" starttime="20201103 17:31:47.709"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:50.054" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:50.054" starttime="20201103 17:31:48.053"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div[2]/div[2]/div[1]/div[2]/p/a</arg>
+</arguments>
+<msg timestamp="20201103 17:31:50.055" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div[2]/div[2]/div[1]/div[2]/p/a'.</msg>
+<status status="PASS" endtime="20201103 17:31:50.385" starttime="20201103 17:31:50.055"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201103 17:31:52.388" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20201103 17:31:52.388" starttime="20201103 17:31:50.386"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20201103 17:31:53.537" starttime="20201103 17:31:52.389"></status>
+</kw>
+<status status="PASS" endtime="20201103 17:31:53.538" critical="yes" starttime="20201103 17:31:29.307"></status>
+</test>
+<status status="PASS" endtime="20201103 17:31:53.541" starttime="20201103 17:31:28.654"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Search" pass="1">Search</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20201103 17:31:29.304" level="ERROR">Error in file 'C:\development\Robot-Script\tokopedia\tests\search.robot' on line 3: Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Scripts\robot.exe
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages</msg>
+</errors>
+</robot>
